@@ -8,6 +8,7 @@ console.log(alder);
 let bynavn = "Roskilde";
 console.log(bynavn);
 
+
 let x = 5;
 let y = 10;
 console.log(x + y);
