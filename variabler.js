@@ -25,7 +25,7 @@ console.log('Hej, jeg hedder ' + mitFornavn + ' ' + mitEfternavn+ ' og jeg er ' 
 
 let moms = 1.25;
 let prisUdenMoms = 400;
-let prisMedMoms = 400 * 1.25;
+let prisMedMoms = prisUdenMoms * moms;
 console.log(prisMedMoms);
 let prisUdenMoms2 = prisMedMoms / moms;
 console.log(prisUdenMoms2); 
