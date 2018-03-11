@@ -21,8 +21,8 @@ do{
 let y = 1;
 
 do{
- console.log(y);
-}while(y<=25)
+    console.log(y);
+   }while(y<=25)
 
 // opgave 4 //
 
