@@ -144,3 +144,34 @@ The number is 3
 The number is 4
 
 
+forEach:
+
+*Metoden "forEach()" kalder en leveret funktion en gang for hvert element i et array i rækkefølge.*
+
+*"forEach()" udfører ikke funktionen for array elementer uden værdier.*
+
+array.forEach(function(currentValue, index, arr), thisValue).
+
+Eksempel:
+
+```javascript
+
+let numbers =[1, 23, 40, 150, 50, 8, 11, 80, 30, 15]
+numbers.forEach(function (number, index){
+    if (numbers[index + 1] !=undefined){
+
+        if(number > numbers[index + 1]){
+            console.log(number + "er større end" + numbers[index + 1]);
+        }else{
+            console.log(number + "er mindre end" + numbers[index + 1]);
+        }
+    }
+    else{
+        console.log(number + "har ingen efterfølger")
+    }
+})
+```
+*Udover array objekter kan forEach-metoden bruges af ethvert objekt, der har en længdeegenskab, og som har numerisk indekserede egenskabsnavne.*
+
+
+
