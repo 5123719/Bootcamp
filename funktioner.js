@@ -15,8 +15,9 @@ function tal(x, y){
 let a = 11;
 let b = 2;
 
-let talaogb = new Function("a", "b", "return a * b");
-console.log("tal " + a + " gange med tal " + b + ", " + " er lig med " + a * b);
+function talaogb(a, b)
+{return "tal " + a + " gange med tal " + b + ", " + " er lig med " + a * b }
+console.log(talaogb(a, b));
 
 //let a = 24;
 //let b = 300;
@@ -36,8 +37,8 @@ function gangeMedxOGy(x, y) {
         return x * y;
     }
 }
- let findtal = gangeMedxOGy(5,7);
- console.log(findtal);
+
+ console.log(gangeMedxOGy(5,7));
 
 
  // øvelse 2 //
